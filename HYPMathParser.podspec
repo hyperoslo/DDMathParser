@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "HYPMathParser"
-  s.version = "0.4.0"
+  s.version = "0.4.1"
   s.summary = "A fork of DDMathParser but with a Podfile"
   s.description = <<-DESC
                     A fork of DDMathParser but with a Podfile,
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     :file => 'LICENSE.md'
   }
   s.author = { "Hyper" => "teknologi@hyper.no" }
-  s.platform = :ios, '7.0'
+  s.platform = :ios, '8.0'
   s.source = {
     :git => 'https://github.com/hyperoslo/HYPMathParser.git',
     :tag => s.version.to_s
