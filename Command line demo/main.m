@@ -1,7 +1,10 @@
 #import <Foundation/Foundation.h>
-#import "DDMathParser.h"
 #import "DDMathStringTokenizer.h"
+#import "DDMathEvaluator.h"
 #import "DDMathOperator.h"
+#import "DDExpression.h"
+#import "DDParser.h"
+#import "DDExpressionRewriter.h"
 
 NSString* readLine(void);
 void listFunctions(void);

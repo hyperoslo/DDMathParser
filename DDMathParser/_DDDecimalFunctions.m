@@ -5,7 +5,6 @@
 //  Created by Dave DeLong on 12/24/10.
 //  Copyright 2010 Home. All rights reserved.
 //
-#import "DDMathParser.h"
 #import "_DDDecimalFunctions.h"
 
 #define IS_FATAL(_e) ((_e) == NSCalculationUnderflow || (_e) == NSCalculationOverflow || (_e) == NSCalculationDivideByZero)

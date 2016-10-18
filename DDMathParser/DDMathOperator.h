@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DDMathParser.h"
+#import "DDParserTypes.h"
 
 @interface DDMathOperator : NSObject <NSCopying>
 
@@ -15,6 +15,7 @@
 @property (nonatomic, readonly, strong) NSArray *tokens;
 @property (nonatomic, readonly) DDOperatorArity arity;
 @property (nonatomic, assign) DDOperatorAssociativity associativity;
+@property (readwrite, assign) NSInteger precedence;
 
 + (instancetype)infoForOperatorFunction:(NSString *)function;
 + (NSArray *)infosForOperatorToken:(NSString *)token;

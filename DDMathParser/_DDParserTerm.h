@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import "DDMathParser.h"
-
 @class DDMathStringToken;
 @class DDMathStringTokenizer;
 @class DDParser;

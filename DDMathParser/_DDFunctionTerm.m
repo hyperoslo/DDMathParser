@@ -6,7 +6,6 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "DDMathParser.h"
 #import "_DDFunctionTerm.h"
 #import "DDMathStringToken.h"
 #import "DDMathStringTokenizer.h"

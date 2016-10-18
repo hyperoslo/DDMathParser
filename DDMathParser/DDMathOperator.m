@@ -6,13 +6,7 @@
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "DDMathOperator_Internal.h"
-
-@interface DDMathOperator ()
-
-@property (readwrite, assign) NSInteger precedence;
-
-@end
+#import "DDMathOperator.h"
 
 @implementation DDMathOperator
 

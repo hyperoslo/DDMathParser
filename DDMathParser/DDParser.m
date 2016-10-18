@@ -6,7 +6,6 @@
 //  Copyright 2010 Home. All rights reserved.
 //
 
-#import "DDMathParser.h"
 #import "DDParser.h"
 #import "DDMathParserMacros.h"
 #import "_DDParserTerm.h"
@@ -15,7 +14,7 @@
 #import "DDMathStringTokenizer.h"
 #import "DDMathStringToken.h"
 #import "DDExpression.h"
-#import "DDMathOperator_Internal.h"
+#import "DDMathOperator.h"
 
 @implementation DDParser {
 	DDMathStringTokenizer * _tokenizer;

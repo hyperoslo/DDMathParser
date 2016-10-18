@@ -6,9 +6,8 @@
 //  Copyright 2010 Home. All rights reserved.
 //
 
-#import "DDMathParser.h"
 #import "DDMathStringToken.h"
-#import "DDMathOperator_Internal.h"
+#import "DDMathOperator.h"
 
 @implementation DDMathStringToken {
 	DDTokenType _tokenType;

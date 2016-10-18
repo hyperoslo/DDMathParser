@@ -7,7 +7,8 @@
 //
 
 #import "DemoController.h"
-#import "DDMathParser.h"
+#import "DDMathEvaluator.h"
+#import "DDExpression.h"
 
 @interface DemoController()
 
