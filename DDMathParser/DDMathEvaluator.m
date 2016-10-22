@@ -5,7 +5,6 @@
 //  Created by Dave DeLong on 11/17/10.
 //  Copyright 2010 Home. All rights reserved.
 //
-#import "DDMathParser.h"
 #import "DDMathEvaluator.h"
 #import "DDMathEvaluator+Private.h"
 #import "DDMathStringTokenizer.h"
@@ -16,6 +15,7 @@
 #import "_DDPrecisionFunctionEvaluator.h"
 #import "DDExpressionRewriter.h"
 #import <objc/runtime.h>
+#import "DDMathOperator.h"
 
 
 @implementation DDMathEvaluator {

@@ -19,3 +19,8 @@
 #endif
 
 #define DDMathParserDeprecated(_r) __attribute__((deprecated(_r)))
+
+#define DDRuleTemplateAnyNumber @"__num"
+#define DDRuleTemplateAnyFunction @"__func"
+#define DDRuleTemplateAnyVariable @"__var"
+#define DDRuleTemplateAnyExpression @"__exp"

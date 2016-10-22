@@ -6,7 +6,6 @@
 //  Copyright 2010 Home. All rights reserved.
 //
 
-#import "DDMathParser.h"
 #import "_DDVariableExpression.h"
 #import "DDMathEvaluator.h"
 #import "DDMathEvaluator+Private.h"
